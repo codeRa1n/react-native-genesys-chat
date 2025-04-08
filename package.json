@@ -1,0 +1,38 @@
+{
+  "name": "react-native-genesys-chat",
+  "version": "1.0.0",
+  "description": "RN wrapper of genesys cloud SDK",
+  "main": "src/index",
+  "author": "codeRa1n",
+  "license": "MIT",
+  "homepage": "https://github.com/codeRa1n/react-native-genesys-chat#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codeRa1n/react-native-genesys-chat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/codeRa1n/react-native-genesys-chat/issues"
+  },
+  "keywords": [
+    "react-native",
+    "genesys",
+    "genesys-cloud",
+    "genesys-cloud-sdk",
+    "genesys-cloud-chat",
+    "plugin"
+  ],
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.0",
+    "@types/react-native": "^0.60.0",
+    "typescript": "^3.7.0"
+  },
+  "create-react-native-library": {
+    "type": "module-legacy",
+    "languages": "kotlin-swift",
+    "version": "0.38.3"
+  }
+}
